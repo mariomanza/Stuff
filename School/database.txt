@@ -1,0 +1,80 @@
+Aguascalientes
+Baja California
+Baja California Sur
+Campeche
+Chiapas
+Chihuahua
+Coahuila de Zaragoza
+Colima
+Durango
+Estado de México
+Guanajuato
+Guerrero
+Hidalgo
+Jalisco
+Michoacán de Ocampo
+Morelos
+Nayarit
+Nuevo León
+Oaxaca
+Puebla
+Querétaro
+Quintana Roo
+San Luis Potosí
+Sinaloa
+Sonora
+Tabasco
+Tamaulipas
+Tlaxcala
+Veracruz de Ignacio de la Llave
+Yucatán
+Zacatecas
+
+Unidad Saltillo
+Escuela de Artes Plásticas “Profesor Rubén Herrera”
+Facultad de Ciencias de la Educación y Humanidades
+Facultad de Ciencias de la Comunicación
+Escuela de Ciencias Sociales
+Escuela Superior de Música
+Facultad de Trabajo Social
+Facultad de Ciencias de la Administración
+Facultad de Economía
+Facultad de Jurisprudencia
+Facultad de Mercadotecnia
+Facultad de Ingeniería
+Facultad de Sistemas
+Facultad de Ciencias Químicas
+Facultad de Arquitectura
+Facultad de Ciencias Físico Matemáticas
+Facultad de Medicina
+Facultad de Odontología
+Facultad de Psicología
+Facultad de Enfermería “Dr. Santiago Valdés Galindo”
+
+Unidad Torreón
+Escuela de Ciencias de la Comunidad
+Facultad de Contaduría y Administración
+Facultad de Economía y Mercadotecnia
+Facultad de Ciencias Políticas y Sociales
+Facultad de Administración Fiscal y Financiera
+Facultad de Derecho
+Facultad de Administración
+Facultad de Ingeniería Mecánica y Eléctrica
+Facultad de Ingeniería Civil
+Escuela de Sistemas
+Escuela de Arquitectura
+Escuela de Ciencias Biológicas
+Facultad de Medicina
+Facultad de Odontología
+Escuela de Licenciatura en Enfermería
+
+Unidad Norte
+Facultad de Contaduría y Administración
+Facultad de Administración y Contaduria
+Facultad de Ingeniería Mecánica y Eléctrica
+Facultad de Metalurgia
+Escuela Superior de Ingeniería “Lic. Adolfo López Mateos”
+Escuela de Sistemas “Prof. Marcial Ruíz Vargas”
+Escuela de Ciencias de la Salud
+Escuela de Medicina
+Escuela de Psicología

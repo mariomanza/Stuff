@@ -1,0 +1,66 @@
+david_perez_tinoco@uadec.edu.mx
+
+fundamentos de bases de datos - abraham silberschatz
+
+power designer ver 12 o sup (modelado)
+
+xampp (apache + MariaDB(MySql) + php + perl)
+navicat ver 9 o sup (ui para mdb)
+
+oracle 11g
+sql developer (sgbd oracle)
+
+DDl - Data Definition Language
+DML - Data Manipulation Language
+	--->Select
+		--->select from alumno where matricula="20121" and nombre="David" order by matricula;
+	--->Insert
+		--->insert into alumno(matricula,cod_esc,nombre,paterno,materno) values("15011931","B201941","Jose","Perez","Robles");
+	--->Update
+		--->update alumno set materno="Tinoco",paterno="Robles" where matricula="15011931";
+	--->Delete
+		--->delete from alumno where matricula="15011931";
+
+insert into "table" select * from "table2";
+date(now());
+		
+select i.curp,p.NOMBRE_P,p.PATERNO_P,m.NOMBRE_M,m.PATERNO_M from ingresos i 
+join paciente p
+on i.curp = p.curp
+join medico m
+on m.CEDULA = i.CEDULA
+
+select i.curp,CONCAT(p.NOMBRE_P,' ',p.PATERNO_P,' ',p.MATERNO_P) as Nombre_Paciente,
+CONCAT(m.NOMBRE_M,' ',m.PATERNO_M,' ',m.MATERNO_M) Nombre_Medico
+from ingresos i 
+join paciente p
+on i.curp = p.curp
+join medico m
+on m.CEDULA = i.CEDULA
+where i.FECHA_ING = date(now());
+
+select i.curp,CONCAT(p.NOMBRE_P,' ',p.PATERNO_P,' ',p.MATERNO_P) Nombre_Paciente,
+CONCAT(m.NOMBRE_M,' ',m.PATERNO_M,' ',m.MATERNO_M) as Nombre_Medico, i.FECHA_ING
+from ingresos i 
+join paciente p
+on i.curp = p.curp
+join medico m
+on m.CEDULA = i.CEDULA
+where i.FECHA_ING <= '2019-01-01' and i.FECHA_ING >= '2019-01-15';
+
+select concat(FirstName,' ', LastName) as Full_name, City from employees where (City = 'Tacoma' or City = 'London');
+select concat(FirstName,' ', LastName) as Full_name, HireDate from employees where HireDate between '1993-02-20' and '1994-02-20';
+select concat(FirstName,' ', LastName) as Full_name, 2019-year(HireDate) from employees;
+select concat(FirstName,' ', LastName) as Full_name, TIMESTAMPDIFF(year,now(),HireDate)*-1 as Antiquity from employees;
+select concat(FirstName,' ', LastName) as Full_name, Truncate(TIMESTAMPDIFF(day,now(),'2000-06-24')/365*-1, 0) as Antiquity from employees;
+
+select * from (
+SELECT ProductID, ProductName,
+(case when UnitsInStock between 0 and 10 then 'Refill'
+			WHEN UnitsInStock between 11 and 20 then 'Alerta'
+			when UnitsInStock > 20 then 'Stock ok'
+			else 'No refill' end) as S
+from products) as x
+where S in ('Refill','Alerta') order by S DESC;
+
+select OrderID, ROUND(sum((UnitPrice*(1-Discount))*Quantity)) as sales from order_details GROUP BY OrderID;
