@@ -1,0 +1,24 @@
+ls (lists all)
+cd (home)
+cd 'name' (change directory)
+cd .. (backwards)
+pwd (process working directory)
+git init
+git status
+git commit (save changes)
+git commit -m "message"
+git log (shows log)
+git add 'name' (moves file to staging)
+git checkout -- 'name' (undo changes)
+git rm (delete file)
+rm -rf 'name' (delete repo)
+
+git remote add origin 'url'
+git push origin master
+git pull origin master
+git clone 'url'
+
+chack vim txt editor
+i (start writing)
+esc
+:wq (write and quit)

@@ -1,0 +1,8 @@
+Peticion
+Que documentos se pediran, con machote o ejemplo de cada uno.(Dividido por etapas e indicar que pasa si no cumple con x doc a x etapa)
+Un borrador de la pagina del administrador(Con detalles)
+Parametros a tomar en cuenta para la aceptacion del alumno en el programa de movilidad (Todos)
+Correo electronico, contraseña del cual se enviaran los mensajes y alertas para los alumnos
+Contenido de los mensajes y alertas, ademas de indicar que activara cada uno
+Solucion al problema de donde se alojara el sistema
+Obtener respuesta al tema de la coneccion a la base de datos del SIIA
